@@ -8,13 +8,14 @@ Visual components and Python
 ## Theory:
 Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
 
-![image](1.png)
+![image](https://github.com/mrnaviz/Single-server-infinite-capacity---Markov-Model/assets/123350791/b3cbd26d-5e03-4014-9190-fb474d337ffd)
 
 This is a queuing model in which the arrival is Marcovian and departure distribution is also Marcovian,number of server is one and size of the queue is also Marcovian,no.of server is one and size of the queue is infinite and service discipline is 1st come 1st serve(FCFS) and the calling source is also finite.
 
 ## Procedure :
 
-![imAGE](2.png)
+![image](https://github.com/mrnaviz/Single-server-infinite-capacity---Markov-Model/assets/123350791/4b9d7c0a-0269-4915-ae6d-355738b29f7b)
+
 
 
 
@@ -57,22 +58,7 @@ print("---------------------------------------------------------------")
 
 
 ## Output :
-```
-Enter the mean inter arrival time of objects from Feeder (in secs): 12
-Enter the mean  inter service time of Lathe Machine (in secs) :  1
-Enter the Additional time taken for the Robot (in secs) :  7
---------------------------------------------------------------
-Single Server with Infinite Capacity - (M/M/1):(oo/FIFO)
---------------------------------------------------------------
-The mean arrival rate per second : 0.08 
-The mean service rate per second : 0.12 
-Average number of objects in the system : 2.00 
-Average number of objects in the conveyor :  1.33 
-Average waiting time of an object in the system : 24.00 secs
-Average waiting time of an object in the conveyor : 16.00 secs
-Probability that the system is busy : 0.67 
-Probability that the system is empty : 0.33 
----------------------------------------------------------------
-```
+![image](https://github.com/mrnaviz/Single-server-infinite-capacity---Markov-Model/assets/123350791/333f44a2-7a04-41a5-b75c-3cc78bf488da)
+
 ## Result :
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
